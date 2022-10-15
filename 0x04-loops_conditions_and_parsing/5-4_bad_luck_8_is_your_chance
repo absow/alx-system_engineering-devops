@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+#creating the while loop
+y=1
+while [ $y -le 10 ]
+do
+	if [ $x -eq 4 ]
+	then
+		echo "bad luck"
+	elif [ $x -eq 8 ]
+	then
+		echo "good lcuk"
+	else
+		echo "Best School"
+	fi
+	((X++))
+done
