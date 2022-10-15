@@ -1,0 +1,8 @@
+#!/bin/env bash
+#creating a script until loop
+y=0
+until [ $x -gt 9 ]
+do
+	echo "Best School"
+	((x++))
+done
