@@ -4,5 +4,5 @@ y=1
 while [ $y -le 10 ]
 do
 	echo "Best School"
-	z=$(( y + 1 ))
+	y=$(( y + 1 ))
 done
