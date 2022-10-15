@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#creating a scrpit that uses a while loop
+y=1
+while [ $y -le 10 ]
+do
+	echo "Best School"
+	z=$(( x + 1 ))
+done
