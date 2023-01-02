@@ -52,3 +52,4 @@ backend robertokoba.tech-backend
         balance roundrobin
         server 57647-web-01 54.197.73.242:80 check
         server 57647-web-02 54.208.60.185:80 check
+# end of parameters
